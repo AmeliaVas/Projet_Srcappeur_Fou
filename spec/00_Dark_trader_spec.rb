@@ -8,9 +8,9 @@ end
 
 describe "select_element method" do
 	it "should return the value which correspond to the key : not to be empty, not to be empty" do
-		expect(select_element("ETH")).not_to be_empty
-		expect(select_element("BNB")).not_to be_nil
-		expect(select_element("BAT")).not_to be_empty
-		expect(select_element("DPT")).not_to be_nil
+		expect(select_element(2)).not_to be_empty
+		expect(select_element(20)).not_to be_nil
+		expect(select_element(140)).not_to be_empty
+		expect(select_element(180)).not_to be_nil
 	end
 end
