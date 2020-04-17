@@ -18,3 +18,5 @@ end
 def select_element (n)
 	return $final_result[n]
 end
+
+puts $final_result
