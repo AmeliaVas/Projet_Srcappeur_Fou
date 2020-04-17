@@ -26,8 +26,6 @@ end
 
 def directory(key)
 	get_deputes
-	$directory = Hash[$deputes_names.zip($deputes_emails.map)]
+	puts $directory = Hash[$deputes_names.zip($deputes_emails.map)]
 	return $directory[key]
 end
-
-puts $directory
