@@ -32,6 +32,8 @@ end
 def directory (key)
 	get_townhall
 	get_townhall_email
-	directory = Hash[$towns.zip($townhall_emails.map)]
-	return directory[key]
+	$directory = Hash[$towns.zip($townhall_emails.map)]
+	return $directory[key]
 end
+
+puts $directory
